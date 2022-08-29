@@ -9,6 +9,8 @@
   ],
   "scripts": {
     "postinstall": "patch-package",
+    "add:remix": "cd packages/remix-app && yarn add",
+    "add:server": "cd packages/server && yarn add",
     "build": "npx --yes turbo run build",
     "dev": "npx --yes turbo run dev --parallel",
     "lint": "npx --yes turbo run lint",

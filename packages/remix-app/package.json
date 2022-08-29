@@ -18,10 +18,12 @@
     "typecheck": "tsc -b"
   },
   "dependencies": {
-    "remix": "npm:@remix-run/server-runtime@^1.6.0",
     "@remix-run/react": "^1.6.0",
+    "chainlocker": "^1.2.35",
+    "gun": "^0.2020.1238",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "remix": "npm:@remix-run/server-runtime@^1.6.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.6.0",
